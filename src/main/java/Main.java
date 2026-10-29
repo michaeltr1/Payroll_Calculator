@@ -6,8 +6,8 @@ import java.util.Locale;
 public class Main {
     public static void main(String[] args) {
         try {
-            BufferedReader reader = new BufferedReader(new FileReader("employees.csv"));
-            reader.readLine(); // skip the header line
+            BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/employees.csv"));
+            reader.readLine();
 
             String line;
             while ((line = reader.readLine()) != null) {
